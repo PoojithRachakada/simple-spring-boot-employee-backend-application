@@ -1,1 +1,1 @@
-# simple-spring-boot-employee-backend-application
+# simple-spring-boot-crud-backend-application
