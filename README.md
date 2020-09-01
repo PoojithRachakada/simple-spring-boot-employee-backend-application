@@ -1,1 +1,1 @@
-# simple-spring-boot-crud-backend-application
+# simple-spring-boot-React-crud-application
