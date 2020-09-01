@@ -26,9 +26,6 @@ public class EmployeeController {
     @Autowired
     private net.javaguides.springbootbackend.repository.EmployeeRepository employeeRepository;
 
-    
-
-    //get all employees
     @GetMapping("/employees")
     public List<Employee> getAllEmployees(){
         return employeeRepository.findAll();
@@ -51,7 +48,6 @@ public class EmployeeController {
         employee.setFirstName(employeeDetails.getFirstName());
         employee.setLastName(employeeDetails.getLastName());
         employee.setEmail(employeeDetails.getEmail());
-
         Employee updatedEmployee=employeeRepository.save(employee);
         return ResponseEntity.ok(updatedEmployee);
 
